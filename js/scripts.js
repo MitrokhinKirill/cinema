@@ -13,9 +13,7 @@ schemeSvg.addEventListener('click', (event) => {
         totalPriceTag.textContent= totalPrice;
     }
 });
-menuButton.addEventListener('click',()=>{
-    console.log("Кликнули по меню");
-    menu.styles.display = "block";
+menuButton.addEventListener('click', () => {
+    console.log('Кликнуть по меню')
     menu.classList.toggle('is-open');
-
-});
+})
